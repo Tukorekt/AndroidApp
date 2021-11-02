@@ -1,0 +1,3 @@
+rootProject.name = "YourChoice"
+include ':app'
+include ':mysql'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLauncherShape">
+        <ignore path="src/main/res/drawable/icon.png" />
+        <ignore path="src/main/res/drawable/r3.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/blueque.png" />
+        <ignore path="src/main/res/drawable/icon.png" />
+        <ignore path="src/main/res/drawable/movie.jpg" />
+        <ignore path="src/main/res/drawable/qqq3.png" />
+        <ignore path="src/main/res/drawable/que.png" />
+        <ignore path="src/main/res/drawable/r3.png" />
+        <ignore path="src/main/res/drawable/r3100.png" />
+        <ignore path="src/main/res/drawable/r3150.png" />
+        <ignore path="src/main/res/drawable/redque.png" />
+    </issue>
+</lint>

@@ -1,0 +1,24 @@
+ext {
+    store = 'C:\\Users\\Artem\\Desktop\\Tuko7.keystore'
+    Name = 'com.Tuko7Games.Rawen'
+}
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

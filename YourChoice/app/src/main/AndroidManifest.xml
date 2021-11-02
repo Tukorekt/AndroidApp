@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Tuko7Games.yourchoice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/r3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/r3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YourChoice"
+        tools:ignore="AllowBackup">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5921977233188947~2577766848" />
+
+        <activity android:name="com.Tuko7Games.yourchoice.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.Tuko7Games.yourchoice.nocity"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.Tuko7Games.yourchoice.yar"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.Tuko7Games.yourchoice.film_kind_classic"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.Tuko7Games.yourchoice.film_keywords_choose"
+            android:label="@string/app_name"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.Tuko7Games.yourchoice.film_keywords_king"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.Tuko7Games.yourchoice.SplashActivity"
+            android:theme="@style/Theme.YourChoice.Launcher"
+            android:screenOrientation="fullSensor"
+            tools:ignore="LockedOrientationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

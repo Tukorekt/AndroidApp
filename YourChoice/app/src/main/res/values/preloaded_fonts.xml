@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/dr_sugiyama</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/christmas_scriptc</item>
+        <item>@font/title_script</item>
+        <item>@font/merriweather_light</item>
+        <item>@font/choose_end_text</item>
+        <item>@font/next</item>
+    </array>
+</resources>

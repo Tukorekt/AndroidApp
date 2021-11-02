@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="choose" translatable="false">ВЫБЕРИТЕ</string>
+    <string name="cat_name" translatable="false">КАТЕГОРИЮ</string>
+
+    <string name="cat_1" translatable="false">Фильмы</string>
+    <string name="cat_1_desc" translatable="false">Просмотр фильма дома</string>
+
+    <string name="film1" translatable="false">Классика</string>
+    <string name="film2" translatable="false">Царь горы</string>
+
+    <string name="cat_11" translatable="false">Комедия</string>
+    <string name="cat_12" translatable="false">Драма</string>
+    <string name="cat_13" translatable="false">Мультфильм</string>
+    <string name="cat_14" translatable="false">Ужасы</string>
+
+    <string name="end" translatable="false">ВАМ ПОДХОДИТ</string>
+    <string name="wait" translatable="false">ПОДОЖДИТЕ, ПОДБИРАЕМ ЛУЧШИЙ ВАРИАНТ</string>
+    <string name="other" translatable="false">Следующий</string>
+
+    <string name="chose1" translatable="false">16(1 раунд)</string>
+    <string name="chose2" translatable="false">32(2 раунда)</string>
+    <string name="chose3" translatable="false">64(3 раунда)</string>
+
+    <string name="app_name" translatable="false">RAKEN</string>
+    <string name="Title_text" translatable="false">RAKEN</string>
+    <string name="CityChooseText" translatable="false">Выберите город</string>
+    <string name="City1" translatable="false">Ярославль</string>
+    <string name="Nocity" translatable="false">Города нет в списке?</string>
+
+    <string name="keys1" translatable="false">Тип 1</string>
+    <string name="keys2" translatable="false">Тип 2</string>
+
+    <string name="Next" translatable="false">Продолжить с выбранными</string>
+    <string name="New1" translatable="false">Выбрать еще</string>
+
+    <string name="NewCity" translatable="false">Выберите</string>
+
+    <string name="back" translatable="false">Назад</string>
+    <string name="king_img1_des" translatable="false">Вариант 1</string>
+    <string name="king_img2_des" translatable="false">Вариант 2</string>
+    <string name="king_choose_btn" translatable="false">Продолжить</string>
+    <string name="king_choose_text1" translatable="false">Выбрать из</string>
+</resources>
